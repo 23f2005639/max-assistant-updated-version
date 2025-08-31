@@ -10,7 +10,7 @@ import os
 
 
 if __name__ == "__main__":
-    # ACCESS_KEY = "p7CqXrfMMXBcnmIOsYwss6MUIlilrRtP4be57qSfIKDKC2NnYVYgfQ=="
+    # ACCESS_KEY = "Write your own"
     wake_word_detector = WakeWordDetector(access_key=os.getenv("ACCESS_KEY"),keywords=["computer"])
     wake_word_detector.start()
 
@@ -40,4 +40,5 @@ if __name__ == "__main__":
         wake_word_detector.stop()
 
     
+
 
